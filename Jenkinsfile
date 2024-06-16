@@ -14,12 +14,6 @@ pipeline{
             }
         }
     }
-
-    post {
-        always{
-            echo "doing clean up"
-        }
-    }
 }
 // pipeline{
 
